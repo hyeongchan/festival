@@ -4,8 +4,8 @@ html{
 }
 body{
     width: 100%;
-    background-color: rgb(197, 197, 247);
-    
+    /* background-color: rgb(197, 197, 247); */
+    background-image: url("image/water-1081971_1280.jpg")
 }
 .window{
     position: absolute;
@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: 60px;
     text-align: center;
-    background-color:rgb(197, 197, 247);
+    color: #fff;
 }
 .content{
     padding: 40px 30px 80px 30px;
@@ -50,7 +50,6 @@ body{
     width: 100%;
     position: fixed;
     bottom : 0;
-    background-color: brown;
 }
 .bottom nav{
     display: flex;
@@ -90,6 +89,8 @@ nav .disabled{
 }
 .navbar button{
     z-index: 1;
+    width: 100%;
+    opacity: 0;
 }
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
