@@ -14,7 +14,7 @@
 
 <body>
     <div class="window">
-        <div class="header">정보</div>
+        <div class="header">INFORMATION</div>
         <div class="content">
 
             <div class="card-group">
@@ -126,6 +126,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            var header = $(".header");
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 100) {
+                    header.removeClass('header').addClass("header-alt");
+                } else {
+                    header.removeClass("header-alt").addClass('header');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
