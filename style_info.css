@@ -103,7 +103,7 @@ nav .disabled{
     object-fit: cover;
     object-position: 0 5;
     width: 100%;
-    /* height: 10%; */
+    height: 42px;
 }
 .navbar button{
     z-index: 1;
