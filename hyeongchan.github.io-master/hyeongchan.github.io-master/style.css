@@ -4,8 +4,7 @@ html{
 }
 body{
     width: 100%;
-    background-image : url("image/bluesea.jpg");
-    background-size : cover;
+    background-color: rgb(197, 197, 247);
     
 }
 .window{
@@ -18,43 +17,16 @@ body{
     justify-content: space-between;
 }
 .window > p{
-    font-family: "Stylish";
     position: fixed;
     margin: 20px;
     font-size: 1.5em;
 }
 .content{
-    padding: 30px 30px ;
-    height: 100%;
-    display : flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 80px 30px ;
 }
-/* .content ul{
+.content ul{
     display: flex;
     justify-content: space-around;
-} */
-.content .h_link{
-    font-family: "Stylish";
-    font-size: 1.7em;
-    height: 80%;
-    width: 100%;
-    display: flex;
-    flex-direction : column;
-    flex-wrap : wrap;
-    justify-content: space-between;
-    align-content: space-between;
-
-}
-.h_link span{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: 10px;
-}
-.content .h_link img{
-    margin : 10px;
-    height: 100px;
 }
 .bottom{
     width: 100%;
@@ -65,22 +37,10 @@ body{
     justify-content: space-around;
     /* background-color: gray; */
 }
-.bottom .collapse{
-    height : 50%;
-}
 nav{
     font-size: 2em;
     font-weight: bold;
-    /* height: 40px; */
 }
-/* nav button{
-    width: 10%;
-    height: 110%;
-}
-nav button span{
-    width:100%;
-} */
-
 nav .disabled{
     color: rgb(154, 154, 250);
 }

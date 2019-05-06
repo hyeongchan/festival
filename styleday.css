@@ -16,11 +16,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-/* .window > p{
-    position: fixed;
-    margin: 20px;
-    font-size: 1.5em;
-} */
 
 .window > .header{
     position: fixed;
@@ -45,14 +40,23 @@ body{
     text-align: center;
     background-color: #fff;
     transition: all 0.5s;
-    color: #000;
+    color: black;
 }
+
 .content{
     margin: 80px 30px ;
 }
 .content ul{
     display: flex;
     justify-content: space-around;
+    
+}
+.content li{
+    border: 2px solid #FFF;
+    border-radius : 5px;
+}
+.content a{
+    color:black;
 }
 .tab-content img {
     width: 100%;
@@ -76,7 +80,7 @@ nav{
 }
 .nav_content span{
     width: 25%;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 .nav_content a{
     display: flex;
@@ -102,7 +106,8 @@ nav .disabled{
 .navbar img{
     position: fixed;
     object-fit: cover;
-    object-position: 0 5;
+    object-position: 0;
+    bottom:0;
     width: 100%;
     /* height: 10%; */
 }
@@ -111,9 +116,6 @@ nav .disabled{
     width: 100%;
     opacity: 0;
 }
-/* .navbar{
-    background-color: transparent!important;
-} */
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }

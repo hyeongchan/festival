@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+ 
+<head>  
 
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Festival</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="stylenight.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <style>
+			div { text-align: center; }
+		</style>
 </head>
 
 <body>
     <div class="window">
-        <p>야간</p>
+        
+            <div class="header">NIGHT</div>
         <div class="content">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -26,37 +34,86 @@
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <!-- 
-                        먹거리 내용
-                     -->
+                
+                    <!-- 먹거리 내용 -->
+                    <img src="nightimg3.png" width = "100%" vspace=10 alt="">
+                    <img src="nightimg2.png" width = "100%" vspace=10 alt="">
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <!-- 
+                        놀거리 내
+                        -->
+
+                    <img src="img3.PNG" width = "100%" vspace=10  alt="">
+                    <img src="img4.PNG" width = "100%" vspace=10  alt=""><br>
+                    
+                        
+                        
+                </div>
+            
+    
+            <!-- 
+            <div class="panel panel-primary">...</div>
+            <div class="panel panel-success">...</div>
+            <div class="panel panel-info">...</div>
+            <div class="panel panel-warning">...</div>
+            <div class="panel panel-danger">...</div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">-->
+                    <!-- 
+                        먹거리 내용
+                     -->
+                <!--</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                --><!-- 
                         놀거리 내용
                      -->
-                </div>
+                <!--</div>-->
             </div>
         </div>
 
         <div class="pos-f-t bottom">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-light p-4">
-                    <nav class="nav_content">
-                        <a href="day.html" class="day">주간</a>
-                        <p class="night disabled">야간</p>
-                        <a href="prev.html" class="prev">전야제</a>
-                        <a href="info.html" class="info">info</a>
-                    </nav>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-light p-4">
+                        <nav class="nav_content">
+                            <span>
+                                <a href="day.html" class="day">
+                                    <img src="image/sun-on.png" alt="">
+                                    <p>주간</p>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="" class="disabled">
+                                    <img src="image/moon (1).png" alt="">
+                                    <p>야간</p>
+                                </a>
+    
+                            </span>
+                            <span>
+                                <a href="prev.html" class="prev">
+                                    <img src="image/fireworks_on.png" alt="">
+                                    <p>전야제</p>
+                                </a>
+    
+                            </span>
+                            <span>
+                                <a href="info.html" class="info">
+                                    <img src="image/info-on.png" alt="">
+                                    <p>info</p>
+                                </a>
+                            </span>
+                        </nav>
+                    </div>
                 </div>
+                <nav class="navbar navbar-dark">
+                    <img src="hands.png" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
             </div>
-            <nav class="navbar navbar-dark bg-primary">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-
 
 
     </div>
@@ -66,6 +123,22 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+        
+    <script>
+            $(function () {
+                var header = $(".header");
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+    
+                    if (scroll >= 100) {
+                        header.removeClass('header').addClass("header-alt");
+                    } else {
+                        header.removeClass("header-alt").addClass('header');
+                    }
+                });
+            });
+        </script>
 </body>
 
 </html>

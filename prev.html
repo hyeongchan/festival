@@ -8,13 +8,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_prev.css">
 
 </head>
 
 <body>
     <div class="window">
-        <p>전야제</p>
+            <div class="header">전야제</div>
         <div class="content">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -26,37 +26,320 @@
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <!-- 
-                        먹거리 내용
-                     -->
+                    <!-- 먹거리 내용-->
+
+                    <div class="button-box container">
+                        <div class="row">
+                            <!-- Button trigger modal 중화탕슉-->
+                            <button type="button" data-toggle="modal" data-target="#junghwa" class="food-button col-5 col-xs-5 col-md-2 m-1" id="junghwa-button">
+                                <img class="btn-img" src="junghwa.PNG">
+                            </button>
+                            <!-- Modal 중화탕슉-->
+                            <div class="modal fade" id="junghwa" tabindex="-1" role="dialog" aria-labelledby="junghwaTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="junghwaTitle">중화탕슉</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>꿔바로우 5000원</p>
+                                        <p>크림새우 4000원</p>
+                                        <p>고량주 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal stayㅋ-->
+                            <button type="button" data-toggle="modal" data-target="#stayk" class="food-button col-5 col-xs-5 col-md-2 m-1" id="stayk-button">
+                                <img class="btn-img" src="stayk.PNG">
+                            </button>
+                            <!-- Modal STAYㅋ-->
+                            <div class="modal fade" id="stayk" tabindex="-1" role="dialog" aria-labelledby="staykTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staykTitle">STAYㅋ</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>비프스테이크 5000원</p>
+                                        <p>맥주 4000원</p>
+                                        <p>고기조아</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 커피음료(matt516cafe)-->
+                            <button type="button" data-toggle="modal" data-target="#matt516cafe" class="food-button col-5 col-xs-5 col-md-2 m-1" id="matt516cafe-button">
+                                <img class="btn-img" src="matt516cafe.PNG">
+                            </button>
+                            <!-- Modal 커피음료(matt516cafe)-->
+                            <div class="modal fade" id="matt516cafe" tabindex="-1" role="dialog" aria-labelledby="matt516cafeTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="matt516cafeTitle">MATT 516 CAFE</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>아메아메 5000원</p>
+                                        <p>아메리카노 4000원</p>
+                                        <p>쪼아조아 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 쿠바샌드위치-->
+                            <button type="button" data-toggle="modal" data-target="#cuba" class="food-button col-5 col-xs-5 col-md-2 m-1" id="cuba-button">
+                                <img class="btn-img" src="cuba.PNG">
+                            </button>
+                            <!-- Modal 쿠바샌드위치-->
+                            <div class="modal fade" id="cuba" tabindex="-1" role="dialog" aria-labelledby="cubaTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="cubaTitle">쿠바샌드위치</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>그릴드치즈샌드위치 5000원</p>
+                                        <p>샌드샌드 4000원</p>
+                                        <p>위치위치 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 와래이-->
+                            <button type="button" data-toggle="modal" data-target="#waraeee" class="food-button col-5 col-xs-5 col-md-2 m-1" id="waraeee-button">
+                                <img class="btn-img" src="waraeee.PNG">
+                            </button>
+                            <!-- Modal 와래이-->
+                            <div class="modal fade" id="waraeee" tabindex="-1" role="dialog" aria-labelledby="waraeeeTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="waraeeeTitle">와래이</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>칮야끼소바빵 5000원</p>
+                                        <p>야끼소바 4000원</p>
+                                        <p>위치위치 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 타꼬야끼-->
+                            <button type="button" data-toggle="modal" data-target="#ssooya" class="food-button col-5 col-xs-5 col-md-2 m-1" id="ssooya-button">
+                                <img class="btn-img" src="ssooya.PNG">
+                            </button>
+                            <!-- Modal 타꼬야끼-->
+                            <div class="modal fade" id="ssooya" tabindex="-1" role="dialog" aria-labelledby="ssooyaTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="ssooyaTitle">쑤야</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>타꼬야끼열개 5000원</p>
+                                        <p>타꼬야끼 다섯개 4000원</p>
+                                        <p>매운맛 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 푸드탱크-->
+                            <button type="button" data-toggle="modal" data-target="#foodtank" class="food-button col-5 col-xs-5 col-md-2 m-1" id="foodtank-button">
+                                <img class="btn-img" src="Foodtank.PNG">
+                            </button>
+                            <!-- Modal 푸드탱크-->
+                            <div class="modal fade" id="foodtank" tabindex="-1" role="dialog" aria-labelledby="foodtankTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="foodtankTitle">푸드탱크</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>닭강정 5000원</p>
+                                        <p>왕새우튀김 다섯개 4000원</p>
+                                        <p>매운맛 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Button trigger modal 쿠커스-->
+                            <button type="button" data-toggle="modal" data-target="#cookers" class="food-button col-5 col-xs-5 col-md-2 m-1" id="cookers-button">
+                                <img class="btn-img" src="cookers.PNG".PNG">
+                            </button>
+                            <!-- Modal 쿠커스-->
+                            <div class="modal fade" id="cookers" tabindex="-1" role="dialog" aria-labelledby="cookersTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="cookersTitle">쿠커스</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>메뉴판</h3>
+                                        <p>타꼬야끼열개 5000원</p>
+                                        <p>타꼬야끼 다섯개 4000원</p>
+                                        <p>매운맛 6000원</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <!-- 
-                        놀거리 내용
-                     -->
+                    <!-- 놀거리 내용-->
+                        <!-- Button trigger modal 공연포스터-->
+                        <button type="button" data-toggle="modal" data-target="#moonnight" class="play-button col-12 col-xs-12 col-md-4 m-1" id="moonnight-button">
+                            <img class="btn-img" src="moonnight.PNG">
+                        </button>
+                        <!-- Modal 공연포스터-->
+                        <div class="modal fade" id="moonnight" tabindex="-1" role="dialog" aria-labelledby="moonnightTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="moonnightTitle">전야제 공연</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="festival-eve-play">
+                                        <img src="festivaleve-play.PNG" alt="" class="play-poster">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         </div>
 
         <div class="pos-f-t bottom">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-light p-4">
-                    <nav class="nav_content">
-                        <a href="days.html" class="day">주간</a>
-                        <a href="night.html" class="night">야간</a>
-                        <p class="prev disabled">전야제</p>
-                        <a href="info.html" class="info">info</a>
-                    </nav>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-light p-4">
+                        <nav class="nav_content">
+                            <span>
+                                <a href="day.html" class="day">
+                                    <img src="image/sun-on.png" alt="">
+                                    <p>주간</p>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="night.html" class="night">
+                                    <img src="image/moon (1).png" alt="">
+                                    <p>야간</p>
+                                </a>
+    
+                            </span>
+                            <span>
+                                <a href="" class="disabled">
+                                    <img src="image/fireworks_on.png" alt="">
+                                    <p>전야제</p>
+                                </a>
+    
+                            </span>
+                            <span>
+                                <a href="info.html" class="info">
+                                    <img src="image/info-on.png" alt="">
+                                    <p>info</p>
+                                </a>
+                            </span>
+                        </nav>
+                    </div>
                 </div>
+                <nav class="navbar navbar-dark">
+                    <img src="hands.png" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
             </div>
-            <nav class="navbar navbar-dark bg-primary">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-
+    
+    
+        <script>
+                $(function () {
+                    var header = $(".header");
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+        
+                        if (scroll >= 100) {
+                            header.removeClass('header').addClass("header-alt");
+                        } else {
+                            header.removeClass("header-alt").addClass('header');
+                        }
+                    });
+                });
+            </script>
 
 
     </div>
