@@ -68,7 +68,6 @@ body{
 }
 .bottom{
     width: 100%;
-    background-color: brown;
 }
 .bottom nav{
     display: flex;
