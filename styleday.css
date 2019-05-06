@@ -16,10 +16,36 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.window > p{
+/* .window > p{
     position: fixed;
     margin: 20px;
     font-size: 1.5em;
+} */
+
+.window > .header{
+    position: fixed;
+    padding: 20px;
+    font-size: 8vw;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.window > .header-alt{
+    position: fixed;
+    padding: 20px;
+    font-size: 8vw;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.5s;
+    color: #000;
 }
 .content{
     margin: 80px 30px ;
@@ -35,7 +61,8 @@ body{
 }
 .bottom{
     width: 100%;
-    background-color: transparent;
+    position: fixed;
+    bottom: 0;
 }
 .bottom nav{
     display: flex;
@@ -47,12 +74,46 @@ nav{
     font-size: 2em;
     font-weight: bold;
 }
+.nav_content span{
+    width: 25%;
+    font-size: 0.8em;
+}
+.nav_content a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    padding: 0;
+}
+.nav_content img{
+    position: absolute;
+    width: 65px;
+    opacity: 0.3;
+}
+.nav_content p{
+    margin: auto;
+}
 nav .disabled{
     color: rgb(154, 154, 250);
 }
-.navbar{
-    background-color: transparent!important;
+
+.navbar img{
+    position: fixed;
+    object-fit: cover;
+    object-position: 0 5;
+    width: 100%;
+    /* height: 10%; */
 }
+.navbar button{
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+}
+/* .navbar{
+    background-color: transparent!important;
+} */
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
