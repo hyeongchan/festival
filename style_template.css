@@ -35,8 +35,9 @@ body{
 } */
 .content .h_link{
     height: 80%;
+    width: 100%;
     display: flex;
-    flex-direction : row;
+    flex-direction : column;
     flex-wrap : wrap;
     justify-content: space-between;
     align-content: space-between;
